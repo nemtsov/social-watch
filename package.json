@@ -1,0 +1,17 @@
+{
+  "name": "social-watch",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Social watch",
+  "main": "web.js",
+  "dependencies": {
+    "express": "~3.4.x",
+    "step": "0.0.5",
+    "ejs": "^1.0.0",
+    "fb": "^0.7.0"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}

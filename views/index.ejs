@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Social Watch" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://social-watch.herokuapp.com" />
+  <meta property="og:site_name" content="Social Watch" />
+  <meta property="og:description" content="Social Watch app" />
+  <meta property="fb:app_id" content="226234137573574" />
+
+  <title>Social Watch</title>
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Facebook JavaScript -->
+<div id="fb-root"></div>
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Social Watch</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- Login page -->
+  <div data-role="page" id="login" class="type-home">
+      <div data-role="content">
+        <div id="login-header">
+          <span class="tagline">Social Watch</span>
+        </div>
+
+        <div id="login-intro">
+          <p class="intro">To get started, login using Facebook</p>
+        </div>
+      </div>
+
+      <div class="login-button">
+        <a href="<%- loginUrl %>"><img src="images/fblogin.png"></img></a>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>
